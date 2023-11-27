@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                 displayLabel.text = numValue
                 keepGoingType = false
             }else{
-// . Buttonum'a tıkladığmda sürekli . ekler durmaz fakat bu kod ile düzenlenir. (.)
+ (.)
             if numValue == "."{
                 guard let currentDisplayValue = Double(displayLabel.text!)else{
                         fatalError("DisplayLabel değişkenim Double'a Dönüştürülemedi.")
