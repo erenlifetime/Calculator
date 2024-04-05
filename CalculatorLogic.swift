@@ -7,8 +7,6 @@ struct CalculatorLogic{
 //    init(number: Double) {
 //        self.number = number
 //    }
-    
-    // bu kod design pattern için işe yarar bir koddur.
     mutating func setNumber(_ number:Double){
         self.number = number
     }
